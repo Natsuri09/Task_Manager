@@ -82,11 +82,11 @@ export default function Login() {
             </button>
           </form>
           <p className="mt-4 text-center text-sm text-[#d3d3d3]/80">
-            Don't have an account?{' '}
-            <Link href="/register" className="text-indigo-400 hover:text-indigo-300 transition-all">
-              Register
-            </Link>
-          </p>
+  Don&rsquo;t forget your password{' '}
+  <Link href="/register" className="text-indigo-400 hover:text-indigo-300 transition-all">
+    Register
+  </Link>
+</p>
         </div>
       </div>
 
