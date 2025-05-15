@@ -1,5 +1,5 @@
 // Example: pages/api/some-api.js
-import dbConnect from '../../lib/mongodb';
+import dbConnect from '../../../lib/mongodb';
 import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
 
