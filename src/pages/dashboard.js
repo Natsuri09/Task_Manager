@@ -5,6 +5,8 @@ import { PrismaClient } from '@prisma/client';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
+import Image from 'next/image';
+
 
 const prisma = new PrismaClient();
 
